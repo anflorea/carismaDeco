@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarismaDeco - Site în Lucru</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+            color: #333;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #e8491d;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        #image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .placeholder-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+            margin: 10px;
+        }
+
+        .placeholder-image:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links i {
+            font-size: 40px;
+            color: #333;
+            margin: 0 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-links i:hover {
+            color: #e8491d;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 16px;
+            color: #777;
+        }
+
+        /* Reguli pentru dispozitive mici */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .placeholder-image {
+                width: 100%;
+                max-width: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>CarismaDeco - Site în Lucru</h1>
+        
+        <div id="image-container">
+            <img class="placeholder-image" src="img/img1.jpeg" alt="Articole din lemn 1">
+            <img class="placeholder-image" src="img/img2.jpeg" alt="Articole din lemn 2">
+            <img class="placeholder-image" src="img/img3.jpeg" alt="Articole din lemn 3">
+        </div>
+        
+        <p>Ne pare rău, dar site-ul nostru este în construcție. Reveniți curând pentru a descoperi colecția noastră. Până atunci, ne găsiți pe paginile noastre de social media.</p>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/people/CarismaDeco/61553019433256/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/CarismaDeco/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@carismadeco" target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 CarismaDeco. Toate drepturile rezervate.
+    </footer>
+</body>
+</html>
